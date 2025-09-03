@@ -4,6 +4,7 @@ import {motion} from "framer-motion";
 import {SpinningText} from "./ui/spinning-text";
 import {useIsMobile} from "../hooks/use-mobile";
 import {ChevronsDown} from "lucide-react";
+import Image from "next/image";
 
 export default function PerspectiveSectionTransition() {
 	return (
@@ -101,10 +102,11 @@ const Section2 = () => {
 				{/* Right Side - Image */}
 				<div className="w-full lg:w-1/2 flex items-center justify-center md:justify-end order-1 lg:order-2">
 					<div className="relative w-full max-w-md h-[350px] md:h-[500px] rounded-none shadow-2xl">
-						<img
+						<Image
 							src="https://ik.imagekit.io/ronjz0frs/ChatGPT%20Image%20Aug%2010,%202025,%2005_58_45%20PM%20(1).png?updatedAt=1756881104526"
 							alt="SET Valves - Quality and Speed"
-							className="w-full h-full object-cover rounded-none"
+							fill
+							className="object-cover rounded-none"
 						/>
 						<div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
 						{/* SpinningText positioned at top left corner of image */}

@@ -15,7 +15,7 @@ export default function ContactPage() {
 							Contact Us
 						</h1>
 						<p className="text-xl md:text-2xl text-white/80 font-manrope font-thin max-w-3xl mx-auto leading-relaxed">
-							Get in touch with our team of experts. We're here to help you find
+							Get in touch with our team of experts. Wet re here to help you find
 							the perfect valve solutions for your needs.
 						</p>
 					</div>

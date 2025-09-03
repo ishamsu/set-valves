@@ -12,7 +12,7 @@ const wildlifeCards = [
 				<p className="text-lg text-neutral-600 dark:text-neutral-300">
 					Witness the majestic lion pride in their natural habitat. These
 					magnificent creatures showcase the raw power and social dynamics of
-					Africa's apex predators.
+					Africas apex predators.
 				</p>
 				<div className="grid grid-cols-2 gap-4">
 					<div className="bg-gray-100 p-4 dark:bg-neutral-800">
